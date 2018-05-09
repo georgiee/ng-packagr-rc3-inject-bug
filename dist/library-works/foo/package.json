@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/my-library-foo.umd.js",
+  "module": "../esm5/my-library-foo.js",
+  "es2015": "../esm2015/my-library-foo.js",
+  "typings": "my-library-foo.d.ts",
+  "metadata": "my-library-foo.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "name": "@my/library/foo"
+}

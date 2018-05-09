@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "my-library.umd.js",
+  "sources": [
+    "ng://@my/library/out/public-api.ts"
+  ],
+  "sourcesContent": [
+    "export const SOME_VALUE = 'hello';"
+  ],
+  "names": [],
+  "mappings": ";;;;;;AAAA,IAAa,UAAU,GAAG,OAAO;;;;;;;;;;;;"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ngc-raw-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngc": "ngc -p src/tsconfig.lib.json",
+    "ng-packagr": "ng-packagr -p src/ng-package.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "ng-packagr": "^2.4.4",
+    "typescript": "2.7.2"
+  },
+  "dependencies": {
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.0.0"
+  }
+}

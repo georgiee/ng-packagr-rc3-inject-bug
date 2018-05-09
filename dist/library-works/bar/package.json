@@ -1,0 +1,11 @@
+{
+  "main": "../bundles/my-library-bar.umd.js",
+  "module": "../esm5/my-library-bar.js",
+  "es2015": "../esm2015/my-library-bar.js",
+  "typings": "my-library-bar.d.ts",
+  "metadata": "my-library-bar.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "name": "@my/library/bar"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@my/library",
+  "private": true,
+  "version": "1.0.0",
+  "main": "bundles/my-library.umd.js",
+  "module": "esm5/my-library.js",
+  "es2015": "esm2015/my-library.js",
+  "typings": "my-library.d.ts",
+  "metadata": "my-library.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}

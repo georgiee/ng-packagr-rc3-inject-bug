@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "my-library-foo.js",
+  "sources": [
+    "ng://@my/library/foo/out/public-api.ts"
+  ],
+  "sourcesContent": [
+    "import {Inject, Injectable, Optional} from '@angular/core';\nimport { BAR_TOKEN } from '@my/library/bar';\n\n@Injectable()\nexport class FooClass {\n  constructor(@Optional() @Inject(BAR_TOKEN) matDateLocale: string) { }\n}\n"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;IAKE,kBAA2C,aAA7C;KAAuE;;;;IAFvE,EAAA,IAAA,EAAC,UAAU,EAAX;;;IAEA,EAAA,IAAA,EAAA,SAAA,EAAA,UAAA,EAAA,CAAA,EAAA,IAAA,EAAe,QAAQ,EAAvB,EAAA,EAAA,IAAA,EAA2B,MAAM,EAAjC,IAAA,EAAA,CAAkC,SAAS,EAA3C,EAAA,EAAA,EAAA;;;;;"
+}

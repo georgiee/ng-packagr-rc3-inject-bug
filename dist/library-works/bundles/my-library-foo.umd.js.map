@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "file": "my-library-foo.umd.js",
+  "sources": [
+    "ng://@my/library/foo/out/public-api.ts"
+  ],
+  "sourcesContent": [
+    "import {Inject, Injectable, Optional} from '@angular/core';\nimport { BAR_TOKEN } from '@my/library/bar';\n\n@Injectable()\nexport class FooClass {\n  constructor(@Optional() @Inject(BAR_TOKEN) matDateLocale: string) { }\n}\n"
+  ],
+  "names": [
+    "Optional",
+    "Inject",
+    "BAR_TOKEN",
+    "Injectable"
+  ],
+  "mappings": ";;;;;;AAAA,IAAA,QAAA,kBAAA,YAAA;IAKE,SAAF,QAAA,CAA6C,aAA7C,EAAA;KAAuE;;;;IAFvE,EAAA,IAAA,EAACG,eAAU,EAAX;;;IAEA,EAAA,IAAA,EAAA,SAAA,EAAA,UAAA,EAAA,CAAA,EAAA,IAAA,EAAeH,aAAQ,EAAvB,EAAA,EAAA,IAAA,EAA2BC,WAAM,EAAjC,IAAA,EAAA,CAAkCC,aAAS,EAA3C,EAAA,EAAA,EAAA;;;;;;;;;;;;;"
+}
