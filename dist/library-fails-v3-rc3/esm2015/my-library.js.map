@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "my-library.js",
+  "sources": [
+    "ng://@my/library/src/my-library.ts"
+  ],
+  "sourcesContent": [
+    "/**\n * Generated bundle index. Do not edit.\n */\n\nexport * from './public-api';\n"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAIA,2BAAc,cAAc,CAAC"
+}

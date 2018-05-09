@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "public-api.js",
+  "sources": [
+    "ng://@my/library/bar/src/bar/public-api.ts"
+  ],
+  "sourcesContent": [
+    "import { SomeComponent } from '@my/library/some-component';\nimport { Directive, InjectionToken, NgModule, Optional } from '@angular/core';\n\nexport const BAR_TOKEN = new InjectionToken<string>('bar-token');\n\n@Directive({\n  selector: 'input[Bar]'\n})\nexport class BarDirective{\n  constructor(\n    @Optional() private _formField: SomeComponent) {\n  }\n}\n\n\n@NgModule({\n  declarations: [\n    BarDirective\n  ],\n  exports: [\n    BarDirective\n  ]\n})\nexport class BarModule { }\n"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,4BAA4B,CAAC;AAC3D,OAAO,EAAE,SAAS,EAAE,cAAc,EAAE,QAAQ,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AAE9E,MAAM,CAAC,uBAAM,SAAS,GAAG,IAAI,cAAc,CAAS,WAAW,CAAC,CAAC;AAKjE,MAAM;;;;IACJ,YACsB;QAAA,eAAU,GAAV,UAAU;KAC/B;;;YANF,SAAS,SAAC;gBACT,QAAQ,EAAE,YAAY;aACvB;;;;YAPQ,aAAa,uBAUjB,QAAQ;;;;;;;;;;;;;AAab,MAAM;;;YARL,QAAQ,SAAC;gBACR,YAAY,EAAE;oBACZ,YAAY;iBACb;gBACD,OAAO,EAAE;oBACP,YAAY;iBACb;aACF"
+}

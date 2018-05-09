@@ -1,0 +1,16 @@
+{
+  "main": "../bundles/my-library-bar.umd.js",
+  "module": "../fesm5/my-library-bar.js",
+  "es2015": "../fesm2015/my-library-bar.js",
+  "esm5": "../esm5/bar/my-library-bar.js",
+  "esm2015": "../esm2015/bar/my-library-bar.js",
+  "fesm5": "../fesm5/my-library-bar.js",
+  "fesm2015": "../fesm2015/my-library-bar.js",
+  "typings": "my-library-bar.d.ts",
+  "metadata": "my-library-bar.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.7.1"
+  },
+  "name": "@my/library/bar"
+}

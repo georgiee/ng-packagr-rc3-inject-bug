@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "my-library-some-component.js",
+  "sources": [
+    "ng://@my/library/some-component/src/some-component/public-api.ts"
+  ],
+  "sourcesContent": [
+    "import { Component, NgModule } from '@angular/core';\n\n@Component({\n  selector: 'some-component',\n  template: ''\n})\nexport class SomeComponent {\n  constructor() { }\n}\n\n\n@NgModule({\n  declarations: [\n    SomeComponent\n  ],\n  exports: [\n    SomeComponent\n  ]\n})\nexport class SomeComponentModule { }\n"
+  ],
+  "names": [],
+  "mappings": ";;;;;;AAAA,AAMA,IAAA,aAAA,kBAAA,YAAA;IACE,SAAF,aAAA,GAAA;;;CALA,EAAA,CAAA,CAAA;AACA,AACA,aAAA,CAAA,UAAU,GAAV;IACA,EAAA,IAAA,EAAA,SAAA,EAAA,IAAA,EAAA,CAAA;;;;;;;AAMA,IAAA,mBAAA,kBAAA,YAAA;IACA,SAAA,mBAAA,GAAA;KACA;IACA,OAAA,mBAAA,CAAA;CACA,EAAA,CAAA,CAAA;AACA,AACA,mBAAA,CAAA,UAAA,GAAA;IACA,EAAA,IAAA,EAAA,QAAA,EAAA,IAAA,EAAA,CAAA;;;;;;;;;;;;;;;;;"
+}
