@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "public-api.js",
+  "sources": [
+    "ng://@my/library/src/public-api.ts"
+  ],
+  "sourcesContent": [
+    "export const SOME_VALUE = 'hello';"
+  ],
+  "names": [],
+  "mappings": ";;;;AAAA,MAAM,CAAC,uBAAM,UAAU,GAAG,OAAO,CAAC"
+}

@@ -1,0 +1,16 @@
+{
+  "main": "../bundles/my-library-some-component.umd.js",
+  "module": "../fesm5/my-library-some-component.js",
+  "es2015": "../fesm2015/my-library-some-component.js",
+  "esm5": "../esm5/some-component/my-library-some-component.js",
+  "esm2015": "../esm2015/some-component/my-library-some-component.js",
+  "fesm5": "../fesm5/my-library-some-component.js",
+  "fesm2015": "../fesm2015/my-library-some-component.js",
+  "typings": "my-library-some-component.d.ts",
+  "metadata": "my-library-some-component.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "name": "@my/library/some-component"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "my-library-bar.umd.js",
+  "sources": [
+    "ng://@my/library/bar/src/bar/public-api.ts"
+  ],
+  "sourcesContent": [
+    "import { SomeComponent } from '@my/library/some-component';\nimport { Directive, InjectionToken, NgModule, Optional } from '@angular/core';\n\nexport const BAR_TOKEN = new InjectionToken<string>('bar-token');\n\n@Directive({\n  selector: 'input[Bar]'\n})\nexport class BarDirective{\n  constructor(\n    @Optional() private _formField: SomeComponent) {\n  }\n}\n\n\n@NgModule({\n  declarations: [\n    BarDirective\n  ],\n  exports: [\n    BarDirective\n  ]\n})\nexport class BarModule { }\n"
+  ],
+  "names": [
+    "NgModule",
+    "Directive",
+    "InjectionToken"
+  ],
+  "mappings": ";;;;;;;;;;AAAA,QAGA,iBAAA,SAAA,GAAA,IAAAE,mBAAA,CAAA,WAAA,CAAA,CAA+D;AAK/D,QAAA,YAAA,IAAA;;;;QACE,sBAAF,UAAA;YACwB,IAAxB,CAAA,UAAkC,GAAV,UAAU,CAAlC;SACG;;;IANH,YACA,CAAA,UAAA,GAAY;QACZ,EAAA,IAAA,EAAAD,cAAA,EAAA,IAAA,EAAA,CAAA;;;;;;;;;;;QAQA;SACA;QACA,OAAA,SAAI,CAAJ;IACA,CAAA,EAAA,CAAA,CAAA;IACA,SACA,CAAA,UAAI,GAAJ;QACA,EAAA,IAAA,EAAAD,aAAA,EAAA,IAAA,EAAA,CAAA;oBACA,YAAA,EAAA;;;;;;;;;;;;;;;;;;;;;"
+}

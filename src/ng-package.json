@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../dist/library-fails-v3-rc3",
+  "dest": "../dist/library-fails-ng6",
   "deleteDestPath": false,
   "keepLifecycleScripts": true,
   "lib": {
